@@ -1,0 +1,290 @@
+{
+  "project_info": {
+    "local_path": "/home/antonov/Base/Libs/Decartes",
+    "cloud_path": "app:/Libs/Decartes",
+    "last_updated": "2025-08-13T18:13:28.348799",
+    "cache_version": "1.0"
+  },
+  "files": {
+    ".eslintignore": {
+      "path": "/home/antonov/Base/Libs/Decartes/.eslintignore",
+      "modified": "2025-08-13T14:37:27.077189",
+      "md5": "d88218069c696c6d0b2ffa0615497022",
+      "type": "file",
+      "size": 23
+    },
+    ".project_cache.json": {
+      "path": "/home/antonov/Base/Libs/Decartes/.project_cache.json",
+      "modified": "2025-08-13T17:11:19.862209",
+      "md5": "c8999d56e0c6e6a2a079a68eba171ee7",
+      "type": "file",
+      "size": 9113
+    },
+    ".gitignore": {
+      "path": "/home/antonov/Base/Libs/Decartes/.gitignore",
+      "modified": "2025-08-13T14:37:27.077189",
+      "md5": "3ec03583f8eaec275cb2183db769ff47",
+      "type": "file",
+      "size": 12
+    },
+    "dist/decartes.d.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/decartes.d.ts",
+      "modified": "2025-08-13T14:37:27.077189",
+      "md5": "a4bfe0799a59e340c29b878c483fd1da",
+      "type": "file",
+      "size": 842
+    },
+    "dist/interfaces.d.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/interfaces.d.ts",
+      "modified": "2025-08-13T14:37:27.079190",
+      "md5": "916611aeeb3fab2640d4959c24ef5cb4",
+      "type": "file",
+      "size": 628
+    },
+    "dist/decartes.js": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/decartes.js",
+      "modified": "2025-08-13T14:37:27.079190",
+      "md5": "ee1167d904aaf2b6d309c8b16b0f2474",
+      "type": "file",
+      "size": 109794
+    },
+    "dist/lib/Materials.d.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/lib/Materials.d.ts",
+      "modified": "2025-08-13T14:37:27.080189",
+      "md5": "0675e960d89335fabf560aad270ac9fc",
+      "type": "file",
+      "size": 385
+    },
+    "dist/lib/Geometries.d.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/lib/Geometries.d.ts",
+      "modified": "2025-08-13T14:37:27.079190",
+      "md5": "8e8dc14ba6cc9ab25d65cad7921a0819",
+      "type": "file",
+      "size": 469
+    },
+    "dist/lib/Scene.d.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/lib/Scene.d.ts",
+      "modified": "2025-08-13T14:37:27.080189",
+      "md5": "b748dcdb9e6224c79045bb805b483fc5",
+      "type": "file",
+      "size": 355
+    },
+    "dist/lib/Color.d.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/lib/Color.d.ts",
+      "modified": "2025-08-13T14:37:27.079190",
+      "md5": "4cc78c6f72b707d8f388f293b50474c7",
+      "type": "file",
+      "size": 487
+    },
+    "dist/lib/Camera.d.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/lib/Camera.d.ts",
+      "modified": "2025-08-13T14:37:27.079190",
+      "md5": "737d29ad95e50dd5f5d9e41213f6efc4",
+      "type": "file",
+      "size": 486
+    },
+    "dist/lib/Vector.d.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/lib/Vector.d.ts",
+      "modified": "2025-08-13T14:37:27.080189",
+      "md5": "f9a8a89abc5a0e7b9946f91f6c8ce6a2",
+      "type": "file",
+      "size": 1227
+    },
+    "dist/lib/DrawObjects.d.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/lib/DrawObjects.d.ts",
+      "modified": "2025-08-13T14:37:27.079190",
+      "md5": "edfd83bf9c53e4b758986fd79edd6565",
+      "type": "file",
+      "size": 485
+    },
+    "examples/complete_graph/index.html": {
+      "path": "/home/antonov/Base/Libs/Decartes/examples/complete_graph/index.html",
+      "modified": "2025-08-13T14:37:27.080189",
+      "md5": "302d833ff796204e0d01ec6fe0fb157b",
+      "type": "file",
+      "size": 1933
+    },
+    "LICENCE": {
+      "path": "/home/antonov/Base/Libs/Decartes/LICENCE",
+      "modified": "2025-08-13T14:37:27.077189",
+      "md5": "41e0ee93478f26a56522215c0173b38a",
+      "type": "file",
+      "size": 753
+    },
+    "webpack.config.js": {
+      "path": "/home/antonov/Base/Libs/Decartes/webpack.config.js",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "3a9afc0ade40b5d7f61e70be4089e50c",
+      "type": "file",
+      "size": 676
+    },
+    ".eslintrc": {
+      "path": "/home/antonov/Base/Libs/Decartes/.eslintrc",
+      "modified": "2025-08-13T14:37:27.077189",
+      "md5": "703fb437013580ae2ae69d55b20d7335",
+      "type": "file",
+      "size": 293
+    },
+    ".syncignore": {
+      "path": "/home/antonov/Base/Libs/Decartes/.syncignore",
+      "modified": "2025-08-13T17:11:19.848209",
+      "md5": "55a27c08f6dcee64687b243d4ca9ac69",
+      "type": "file",
+      "size": 5
+    },
+    "src/decartes.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/decartes.ts",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "882b6dc6e388339a0cf826be82243c6b",
+      "type": "file",
+      "size": 676
+    },
+    "src/.babelrc": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/.babelrc",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "da5e76df1aab368b37058ce247a79976",
+      "type": "file",
+      "size": 40
+    },
+    "src/interfaces.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/interfaces.ts",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "5900a5f93430ce7140f95a645f33380f",
+      "type": "file",
+      "size": 598
+    },
+    "src/lib/Color.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/lib/Color.ts",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "62fcec04b4b076d3e547b87984c1f947",
+      "type": "file",
+      "size": 6102
+    },
+    "src/lib/DrawObjects.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/lib/DrawObjects.ts",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "a98a10aaf81883aed11f549c862878ef",
+      "type": "file",
+      "size": 1092
+    },
+    "src/lib/Materials.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/lib/Materials.ts",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "fee6dd295480eced51856c67e4d61397",
+      "type": "file",
+      "size": 615
+    },
+    "src/lib/Scene.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/lib/Scene.ts",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "304416e208231e23ae85131b02ff12f1",
+      "type": "file",
+      "size": 1041
+    },
+    "src/lib/Camera.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/lib/Camera.ts",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "43b9a8409852a709c6269035b2d7066f",
+      "type": "file",
+      "size": 1223
+    },
+    "src/lib/Geometries.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/lib/Geometries.ts",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "302f3aa4887a00b60d278f7f4fd29e2d",
+      "type": "file",
+      "size": 879
+    },
+    "src/lib/Vector.ts": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/lib/Vector.ts",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "f4ab8a097d7d4dc2ae432e6b50932ec4",
+      "type": "file",
+      "size": 3907
+    },
+    "tsconfig.json": {
+      "path": "/home/antonov/Base/Libs/Decartes/tsconfig.json",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "3adff76fff03a74f3f2d0994620fe3d7",
+      "type": "file",
+      "size": 369
+    },
+    "package.json": {
+      "path": "/home/antonov/Base/Libs/Decartes/package.json",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "0ade76c1be77f9127cb688b95ced1ea7",
+      "type": "file",
+      "size": 1200
+    },
+    ".prettierrc.json": {
+      "path": "/home/antonov/Base/Libs/Decartes/.prettierrc.json",
+      "modified": "2025-08-13T14:37:27.077189",
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "type": "file",
+      "size": 0
+    },
+    "README.md": {
+      "path": "/home/antonov/Base/Libs/Decartes/README.md",
+      "modified": "2025-08-13T14:37:27.077189",
+      "md5": "9e7872f39006a2c2d7d0c3280ee4c7df",
+      "type": "file",
+      "size": 126
+    },
+    "package-lock.json": {
+      "path": "/home/antonov/Base/Libs/Decartes/package-lock.json",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "c87c7deca38fe2f0c3bb1ef7d425af39",
+      "type": "file",
+      "size": 580323
+    }
+  },
+  "dirs": {
+    "dist": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist",
+      "modified": "2025-08-13T14:37:27.079190",
+      "md5": "",
+      "type": "dir",
+      "size": 0
+    },
+    "dist/lib": {
+      "path": "/home/antonov/Base/Libs/Decartes/dist/lib",
+      "modified": "2025-08-13T14:37:27.080189",
+      "md5": "",
+      "type": "dir",
+      "size": 0
+    },
+    "examples": {
+      "path": "/home/antonov/Base/Libs/Decartes/examples",
+      "modified": "2025-08-13T14:37:27.080189",
+      "md5": "",
+      "type": "dir",
+      "size": 0
+    },
+    "examples/complete_graph": {
+      "path": "/home/antonov/Base/Libs/Decartes/examples/complete_graph",
+      "modified": "2025-08-13T14:37:27.080189",
+      "md5": "",
+      "type": "dir",
+      "size": 0
+    },
+    "src": {
+      "path": "/home/antonov/Base/Libs/Decartes/src",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "",
+      "type": "dir",
+      "size": 0
+    },
+    "src/lib": {
+      "path": "/home/antonov/Base/Libs/Decartes/src/lib",
+      "modified": "2025-08-13T14:37:27.086190",
+      "md5": "",
+      "type": "dir",
+      "size": 0
+    }
+  },
+  "statistics": {
+    "total_files": 33,
+    "total_directories": 6,
+    "total_size": 726157
+  }
+}
