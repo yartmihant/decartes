@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Line Cat - Decartes.js Example</title>
+    <script src="../../dist/decartes.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #202020;
+            background: #f8f6f0;
+        }
+
+        main {
+            max-width: 820px;
+            margin: 24px auto;
+            padding: 0 16px;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        p {
+            margin: 0 0 16px;
+        }
+
+        #canvas {
+            width: 780px;
+            height: 560px;
+            max-width: 100%;
+            border: 1px solid #2c1d00;
+            background: #fffdf7;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Line Cat</h1>
+        <p>Decartes.js browser example.</p>
+        <div id="canvas"></div>
+    </main>
+
+    <script>
+        const {Scene, LineSegment} = decartes
+
+        const scene = new Scene()
+        const canvas = document.getElementById('canvas')
+
+        const addLine = (a, b, lineColor = '#1f1f1f', lineWidth = 4) => {
+            scene.add(new LineSegment({a, b}, {lineColor, lineWidth}))
+        }
+
+        const addPath = (points, lineColor = '#1f1f1f', lineWidth = 4) => {
+            for(let i = 0; i < points.length - 1; i++){
+                addLine(points[i], points[i + 1], lineColor, lineWidth)
+            }
+        }
+
+        const addClosedPath = (points, lineColor = '#1f1f1f', lineWidth = 4) => {
+            addPath(points, lineColor, lineWidth)
+            addLine(points[points.length - 1], points[0], lineColor, lineWidth)
+        }
+
+        addClosedPath([
+            [-0.56, -0.42],
+            [-0.76, -0.86],
+            [-0.30, -0.66],
+            [0, -0.74],
+            [0.30, -0.66],
+            [0.76, -0.86],
+            [0.56, -0.42],
+            [0.70, -0.04],
+            [0.58, 0.32],
+            [0.28, 0.52],
+            [-0.28, 0.52],
+            [-0.58, 0.32],
+            [-0.70, -0.04]
+        ], '#222222', 5)
+
+        addClosedPath([
+            [-0.42, -0.16],
+            [-0.30, -0.26],
+            [-0.18, -0.16],
+            [-0.30, -0.04]
+        ], '#355c9a', 4)
+
+        addClosedPath([
+            [0.18, -0.16],
+            [0.30, -0.26],
+            [0.42, -0.16],
+            [0.30, -0.04]
+        ], '#355c9a', 4)
+
+        addClosedPath([
+            [-0.08, 0.12],
+            [0.08, 0.12],
+            [0, 0.22]
+        ], '#c44141', 4)
+
+        addLine([0, 0.22], [0, 0.34], '#222222', 4)
+        addPath([[-0.20, 0.36], [-0.08, 0.44], [0, 0.36], [0.08, 0.44], [0.20, 0.36]], '#222222', 4)
+
+        addLine([-0.12, 0.14], [-0.52, 0.02], '#222222', 3)
+        addLine([-0.12, 0.20], [-0.56, 0.20], '#222222', 3)
+        addLine([-0.12, 0.26], [-0.52, 0.38], '#222222', 3)
+        addLine([0.12, 0.14], [0.52, 0.02], '#222222', 3)
+        addLine([0.12, 0.20], [0.56, 0.20], '#222222', 3)
+        addLine([0.12, 0.26], [0.52, 0.38], '#222222', 3)
+
+        addPath([[-0.34, 0.52], [-0.52, 0.90], [-0.14, 0.82], [0.14, 0.82], [0.52, 0.90], [0.34, 0.52]], '#6d4c2f', 5)
+        addPath([[0.34, 0.76], [0.70, 0.70], [0.82, 0.42], [0.62, 0.30]], '#6d4c2f', 5)
+
+        scene.setCanvas(canvas)
+        scene.draw()
+
+        requestAnimationFrame(function animate(){
+            scene.draw()
+            requestAnimationFrame(animate)
+        })
+    </script>
+</body>
+</html>

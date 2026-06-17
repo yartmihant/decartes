@@ -16,6 +16,7 @@
 | `.eslintrc` | ESLint-настройки для TypeScript. |
 | `src/.babelrc` | Babel preset для webpack pipeline. |
 | `dist/` | Собранный package output: JavaScript bundle и `.d.ts` файлы. |
+| `examples/` | Статические browser examples, открываемые напрямую из файловой системы. |
 
 ## Исходники
 
